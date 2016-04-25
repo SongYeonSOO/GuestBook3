@@ -48,8 +48,8 @@ pageContext.setAttribute(newLine, "\r\n");%>
 	<table width=510 border=1>
 		<tr>
 			<td>[${count-status.index}]</td>
-			<td><${vo.name}></td>
-			<td><${vo.reg_date}></td>
+			<td>${vo.name}</td>
+			<td>${vo.reg_date}</td>
 			<td><a href="/GuestBook3/deleteform?id=${vo.no}">삭제 </a></td>
 		</tr>
 		<tr>
